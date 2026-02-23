@@ -1,0 +1,15 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no methods or state, serving as a minimal backend placeholder.",
+  "feature_evidence.json": "Feature evidence report documenting six implemented features for the Kanhaiya Sweet House website, including header, navigation, about section, menu display, order form, and contact section with high confidence test mappings.",
+  "frontend-file-summaries.txt": "JSON summary of frontend files describing the main App component structure, global styles with OKLCH color system, Tailwind config, and empty hooks file.",
+  "frontend/index.css": "Tailwind CSS configuration with OKLCH color variables for light and dark themes, using neutral grayscale values for a minimal design system.",
+  "frontend/index.html": "HTML entry point with viewport meta tag, page title 'Kanhaiya Sweet House', and root div mounting the React application.",
+  "frontend/src/App.tsx": "Main React component implementing a single-page website for Kanhaiya Sweet House with header, navigation, about section, menu cards for three sweets, order form with state management, contact section with embedded Google Maps, and footer.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages an ICP backend actor with authentication support, handling both anonymous and authenticated identities with automatic query invalidation on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Intentionally empty file as the static website requires no backend data fetching.",
+  "frontend/src/index.css": "Global styles with Tailwind layers defining OKLCH color variables for warm orange/cream theme (#fff3e0 background), smooth scrolling behavior, and typography using Arial font.",
+  "frontend/src/main.tsx": "React application entry point that sets up QueryClient, InternetIdentityProvider, and renders the App component into the root DOM element.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration file defining custom color tokens using OKLCH color space, extended theme settings for borders/shadows/animations, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project state file documenting a single-page website for Kanhaiya Sweet House with features including header, navigation, about section, menu with pricing, order form, contact section with map, and footer using orange/amber color scheme."
+}

@@ -1,0 +1,150 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-header-section-with-business-name-kanhaiya-sweet-house-and-tagline-pure-fresh-indian-sweets-in-karhal-using-orange-gradient-background-ff6f00-to-ff9800",
+      "featureTitle": "Create header section with business name 'Kanhaiya Sweet House' and tagline 'Pure & Fresh Indian Sweets in Karhal' using orange gradient background (#ff6f00 to #ff9800)",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-navigation-menu-with-links-to-about-menu-order-and-contact-sections-using-anchor-navigation-about-menu-order-contact",
+      "featureTitle": "Implement navigation menu with links to About, Menu, Order, and Contact sections using anchor navigation (#about, #menu, #order, #contact)",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-about-section-with-heading-about-us-and-description-text-welcome-to-kanhaiya-sweet-house-we-serve-fresh-and-delicious-sweets-made-with-pure-ingredients",
+      "featureTitle": "Create About section with heading 'About Us' and description text 'Welcome to Kanhaiya Sweet House. We serve fresh and delicious sweets made with pure ingredients.'",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-menu-section-displaying-three-sweet-items-laddu-400-kg-kaju-katli-900-kg-and-gulab-jamun-350-kg-each-in-white-card-containers-with-rounded-corners-and-shadow",
+      "featureTitle": "Create Menu section displaying three sweet items: Laddu (₹400/kg), Kaju Katli (₹900/kg), and Gulab Jamun (₹350/kg), each in white card containers with rounded corners and shadow",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-order-section-with-form-containing-name-input-mobile-number-input-order-details-textarea-and-submit-button-styled-with-orange-ff6f00-background",
+      "featureTitle": "Create Order section with form containing name input, mobile number input, order details textarea, and submit button styled with orange (#ff6f00) background",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-contact-section-displaying-address-xr25-gfx-meethepur-karhal-206245-and-embedded-google-maps-iframe-using-the-provided-map-url",
+      "featureTitle": "Create Contact section displaying address 'XR25+GFX, Meethepur, Karhal, 206245' and embedded Google Maps iframe using the provided map URL",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-footer-section-with-copyright-text-2026-kanhaiya-sweet-house-karhal-on-dark-background-333",
+      "featureTitle": "Create footer section with copyright text '© 2026 Kanhaiya Sweet House | Karhal' on dark background (#333)",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-warm-color-scheme-with-cream-background-fff3e0-orange-gradient-header-and-maintain-the-exact-styling-specifications-from-the-provided-html-including-spacing-typography-and-responsive-design",
+      "featureTitle": "Apply warm color scheme with cream background (#fff3e0), orange gradient header, and maintain the exact styling specifications from the provided HTML including spacing, typography, and responsive design",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

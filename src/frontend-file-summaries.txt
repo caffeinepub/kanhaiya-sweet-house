@@ -1,0 +1,6 @@
+{
+  "frontend/src/App.tsx": "Main application component for Kanhaiya Sweet House website featuring header with gradient, navigation with smooth scrolling, about section, menu cards displaying three sweet items with prices, order form with validation, contact section with embedded Google Maps, and footer with attribution.",
+  "frontend/src/index.css": "Global styles with OKLCH color system customized for warm orange/cream theme (#fff3e0 background), smooth scrolling behavior, and typography settings using Arial font family.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended color palette matching the Indian sweet shop theme and standard utility configurations.",
+  "frontend/src/hooks/useQueries.ts": "Empty hooks file as no backend data fetching is required for this static website."
+}

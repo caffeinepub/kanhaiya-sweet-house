@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "A website for Kanhaiya Sweet House, an Indian sweet shop in Karhal. The site includes sections for about, menu with sweet items and prices, an order form, and contact information with embedded map.",
+  "architectural_notes": [
+    "Single-page website with anchor navigation",
+    "Orange/amber color scheme (#ff6f00, #ff9800, #e65100)",
+    "Mobile-responsive design with viewport meta tag",
+    "Embedded Google Maps iframe for location"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Indian sweets assortment hero image featuring laddu, kaju katli, and gulab jamun on traditional platter with warm lighting (hero-sweets.dim_1200x400.png)\n- Decorative traditional Indian motif border pattern in orange and gold tones (border-pattern.dim_800x100.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-header-section-with-business-name-kanhaiya-sweet-house-and-tagline-pure-fresh-indian-sweets-in-karhal-using-orange-gradient-background-ff6f00-to-ff9800",
+      "title": "Create header section with business name 'Kanhaiya Sweet House' and tagline 'Pure & Fresh Indian Sweets in Karhal' using orange gradient background (#ff6f00 to #ff9800)",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-navigation-menu-with-links-to-about-menu-order-and-contact-sections-using-anchor-navigation-about-menu-order-contact",
+      "title": "Implement navigation menu with links to About, Menu, Order, and Contact sections using anchor navigation (#about, #menu, #order, #contact)",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-about-section-with-heading-about-us-and-description-text-welcome-to-kanhaiya-sweet-house-we-serve-fresh-and-delicious-sweets-made-with-pure-ingredients",
+      "title": "Create About section with heading 'About Us' and description text 'Welcome to Kanhaiya Sweet House. We serve fresh and delicious sweets made with pure ingredients.'",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-menu-section-displaying-three-sweet-items-laddu-400-kg-kaju-katli-900-kg-and-gulab-jamun-350-kg-each-in-white-card-containers-with-rounded-corners-and-shadow",
+      "title": "Create Menu section displaying three sweet items: Laddu (₹400/kg), Kaju Katli (₹900/kg), and Gulab Jamun (₹350/kg), each in white card containers with rounded corners and shadow",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-order-section-with-form-containing-name-input-mobile-number-input-order-details-textarea-and-submit-button-styled-with-orange-ff6f00-background",
+      "title": "Create Order section with form containing name input, mobile number input, order details textarea, and submit button styled with orange (#ff6f00) background",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-contact-section-displaying-address-xr25-gfx-meethepur-karhal-206245-and-embedded-google-maps-iframe-using-the-provided-map-url",
+      "title": "Create Contact section displaying address 'XR25+GFX, Meethepur, Karhal, 206245' and embedded Google Maps iframe using the provided map URL",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-footer-section-with-copyright-text-2026-kanhaiya-sweet-house-karhal-on-dark-background-333",
+      "title": "Create footer section with copyright text '© 2026 Kanhaiya Sweet House | Karhal' on dark background (#333)",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-warm-color-scheme-with-cream-background-fff3e0-orange-gradient-header-and-maintain-the-exact-styling-specifications-from-the-provided-html-including-spacing-typography-and-responsive-design",
+      "title": "Apply warm color scheme with cream background (#fff3e0), orange gradient header, and maintain the exact styling specifications from the provided HTML including spacing, typography, and responsive design",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "About section with business description",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Menu section displaying sweet items with prices (Laddu ₹400/kg, Kaju Katli ₹900/kg, Gulab Jamun ₹350/kg)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Order form with name, mobile number, and order details fields",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Contact section with address and embedded Google Maps",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Navigation menu linking to different sections",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Kanhaiya Sweet House",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,163 @@
+{
+  "kind": "build_request",
+  "title": "Create Kanhaiya Sweet House website with menu, order form, and contact sections",
+  "projectName": "Kanhaiya Sweet House",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create header section with business name 'Kanhaiya Sweet House' and tagline 'Pure & Fresh Indian Sweets in Karhal' using orange gradient background (#ff6f00 to #ff9800)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Header displays 'Kanhaiya Sweet House' as main heading",
+        "Tagline 'Pure & Fresh Indian Sweets in Karhal' appears below heading",
+        "Background uses linear gradient from #ff6f00 to #ff9800",
+        "Text is white and center-aligned"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement navigation menu with links to About, Menu, Order, and Contact sections using anchor navigation (#about, #menu, #order, #contact)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navigation bar contains four links: About, Menu, Order, Contact",
+        "Links are styled with white text on #e65100 background",
+        "Clicking each link scrolls to corresponding section",
+        "Navigation is horizontally centered"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create About section with heading 'About Us' and description text 'Welcome to Kanhaiya Sweet House. We serve fresh and delicious sweets made with pure ingredients.'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section has id='about' for anchor navigation",
+        "Displays 'About Us' as section heading",
+        "Shows welcome text with business description",
+        "Content is center-aligned"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create Menu section displaying three sweet items: Laddu (₹400/kg), Kaju Katli (₹900/kg), and Gulab Jamun (₹350/kg), each in white card containers with rounded corners and shadow",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section has id='menu' and heading 'Our Special Menu'",
+        "Three menu items are displayed: Laddu, Kaju Katli, Gulab Jamun",
+        "Each item shows name and price per kg in Indian Rupees",
+        "Cards have white background, 10px border-radius, and subtle shadow",
+        "Cards are centered with 250px width"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create Order section with form containing name input, mobile number input, order details textarea, and submit button styled with orange (#ff6f00) background",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section has id='order' and heading 'Place Your Order'",
+        "Form includes text input with placeholder 'Your Name'",
+        "Form includes text input with placeholder 'Mobile Number'",
+        "Form includes textarea with placeholder 'Order Details'",
+        "Submit button displays 'Submit Order' with #ff6f00 background and white text",
+        "Inputs are 80% width with consistent padding"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create Contact section displaying address 'XR25+GFX, Meethepur, Karhal, 206245' and embedded Google Maps iframe using the provided map URL",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section has id='contact' and heading 'Visit Us'",
+        "Address 'XR25+GFX, Meethepur, Karhal, 206245' is displayed",
+        "Google Maps iframe embeds with src='https://www.google.com/maps?q=XR25+GFX,Karhal&output=embed'",
+        "Map is 80% width and 250px height with no border",
+        "Content is center-aligned"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Create footer section with copyright text '© 2026 Kanhaiya Sweet House | Karhal' on dark background (#333)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer displays copyright notice with year 2026",
+        "Background color is #333 with white text",
+        "Text is center-aligned"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Apply warm color scheme with cream background (#fff3e0), orange gradient header, and maintain the exact styling specifications from the provided HTML including spacing, typography, and responsive design",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page background is #fff3e0 (cream/light orange)",
+        "All sections use 30px padding",
+        "Typography uses Arial sans-serif font family",
+        "Viewport meta tag ensures mobile responsiveness",
+        "All colors match the provided specification"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use exact color values: #fff3e0 background, #ff6f00 to #ff9800 header gradient, #e65100 navigation, #333 footer",
+    "Maintain Indian Rupee (₹) currency symbol for all prices",
+    "Preserve exact menu items and prices: Laddu ₹400/kg, Kaju Katli ₹900/kg, Gulab Jamun ₹350/kg",
+    "Use exact address: XR25+GFX, Meethepur, Karhal, 206245",
+    "Embed Google Maps with provided URL: https://www.google.com/maps?q=XR25+GFX,Karhal&output=embed"
+  ],
+  "nonGoals": [
+    "Order processing backend functionality",
+    "Payment integration",
+    "User authentication",
+    "Database storage for orders",
+    "Email notifications",
+    "Dynamic menu management",
+    "Inventory tracking"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Indian sweets assortment hero image featuring laddu, kaju katli, and gulab jamun on traditional platter with warm lighting (hero-sweets.dim_1200x400.png)",
+      "Decorative traditional Indian motif border pattern in orange and gold tones (border-pattern.dim_800x100.png)"
+    ],
+    "edits": []
+  }
+}
